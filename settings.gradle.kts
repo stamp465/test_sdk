@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "xxxxxxx3"
 include(":app")
 include(":StampLib")
+include(":StampLib2")
