@@ -37,16 +37,16 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
 
-afterEvaluate{
-    publishing{
-        publications{
-            create<MavenPublication>("maven") {
-//                from components.release
-
-                groupId="com.github.stamp465"
-                artifactId = "stamplib"
-                version = "1.0"
-            }
-        }
-    }
-}
+//afterEvaluate{
+//    publishing{
+//        publications{
+//            create<MavenPublication>("maven") {
+////                from components.release
+//
+//                groupId="com.github.stamp465"
+//                artifactId = "stamplib"
+//                version = "1.0"
+//            }
+//        }
+//    }
+//}
